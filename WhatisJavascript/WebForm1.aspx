@@ -9,27 +9,27 @@
         function ValidateForm() {
             var ret = true;
             if (document.getElementById("txtFirstName").value == "") {
-                document.getElementById("lblFirstName").innerText = "First Name is required";
+                document.getElementById("lblFirstName").textContent = "First Name is required";
                 ret = false;
             }
             else {
-                document.getElementById("lblFirstName").innerText = "";
+                document.getElementById("lblFirstName").textContent = "";
             }
 
             if (document.getElementById("txtLastName").value == "") {
-                document.getElementById("lblLastName").innerText = "Last Name is required";
+                document.getElementById("lblLastName").textContent = "Last Name is required";
                 ret = false;
             }
             else {
-                document.getElementById("lblLastName").innerText = "";
+                document.getElementById("lblLastName").textContent = "";
             }
 
             if (document.getElementById("txtEmail").value == "") {
-                document.getElementById("lblEmail").innerText = "Email is required";
+                document.getElementById("lblEmail").textContent = "Email is required";
                 ret = false;
             }
             else {
-                document.getElementById("lblEmail").innerText = "";
+                document.getElementById("lblEmail").textContent = "";
             }
 
             return ret;
