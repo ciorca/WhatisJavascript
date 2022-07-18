@@ -18,10 +18,10 @@ namespace WhatisJavascript
         }
         protected void btnSubmit_Click(object sender, EventArgs e)
         {
-            if (ValidateForm())
-            {
+            //if (ValidateForm())
+            //{
                 SaveData();
-            }
+            //}
         }
 
         private void SaveData()
